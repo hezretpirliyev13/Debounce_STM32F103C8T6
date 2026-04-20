@@ -3,6 +3,7 @@
 
 #ifdef MCU_STM32F103C8
 #pragma message("STM32F103C8T6 microcontroller found")
+#endif
 #include "board/board.h"
 #include "io.h"
 #include <cstdint>
@@ -53,6 +54,4 @@ protected:
     PB11
   };
 };
-#endif
-
 #endif
